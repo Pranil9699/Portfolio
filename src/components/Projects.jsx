@@ -54,7 +54,7 @@ const Projects = () => {
             >
               <source
                 src={
-                  "../../public/videos/bloggingapplication/freecompress-2024-02-19 09-36-56 (1) (1).mp4"
+                  "../../videos/bloggingapplication/freecompress-2024-02-19 09-36-56 (1) (1).mp4"
                 }
                 type="video/mp4"
               />
@@ -109,7 +109,7 @@ const Projects = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2 overflow-hidden lg:p-6">
             <img
-              src={`../../public/images/chatapp/${chatAppImagesArray[currentImageIndexCA]}`}
+              src={`../../images/chatapp/${chatAppImagesArray[currentImageIndexCA]}`}
               alt="Project Image"
               className="w-full transition-transform duration-300 transform hover:scale-105"
             />
@@ -157,7 +157,7 @@ const Projects = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2 overflow-hidden lg:p-6">
             <img
-              src={`../../public/images/lalparibus/${lalPariBusImagesArray[currentImageIndexLPB]}`}
+              src={`../../images/lalparibus/${lalPariBusImagesArray[currentImageIndexLPB]}`}
               alt="Project Image"
               className="w-full transition-transform duration-300 transform hover:scale-105"
             />

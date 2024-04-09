@@ -262,7 +262,7 @@ const Navbar = ({ callFunc, t }) => {
               <a href="mailto:@takawanepranil22@gmail.com">Contact Me</a>
             </button>
             <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded">
-              <a href="../../public/pdf/Pranil Takawane.pdf">Download Resume</a>
+              <a href="../../pdf/Pranil Takawane.pdf">Download Resume</a>
             </button>
           </div>
         </div>
@@ -272,7 +272,7 @@ const Navbar = ({ callFunc, t }) => {
           className="w-1/2 flex justify-center md:w-[100%] md:h-[100%] md:p-0"
         >
           <img
-            src="../../public/images/IMG_20230120_143519.png"
+            src="../../images/IMG_20230120_143519.png"
             alt="Profile"
             className="rounded-lg w-[50%] h-[60%] hover:scale-150"
           />
