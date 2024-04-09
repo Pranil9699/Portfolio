@@ -1,0 +1,61 @@
+@tailwind base;
+html {
+  scroll-behavior: smooth;
+}
+@tailwind components;
+@tailwind utilities;
+
+#container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+}
+
+#left {
+  height: 100%;
+  width: 50%;
+  padding: 10% 6%;
+}
+
+#right {
+  align-items: center;
+  height: 100%;
+
+  padding: 15% 6%;
+  width: 50%;
+  overflow: hidden;
+}
+
+#left h2 {
+  @apply text-2xl font-bold p-5 text-white;
+}
+
+@media (min-width: 768px) {
+  /* Medium screens and up */
+  #left {
+    padding: 5% 3%;
+  }
+
+  #right {
+    padding: 5% 3%;
+  }
+
+  #left h2 {
+    @apply text-3xl;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Large screens and up */
+  #left {
+    padding: 3% 2%;
+  }
+
+  #right {
+    padding: 3% 2%;
+  }
+
+  #left h2 {
+    @apply text-4xl;
+  }
+}
