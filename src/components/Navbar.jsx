@@ -255,16 +255,17 @@ const Navbar = ({ callFunc, t }) => {
             I have good Technical Knowlegde.
           </h2>
           <div
-            id="buttonsforcontactAnddownload"
-            className="md:flex md:p-3  justify-center text-center gap-3 pt-5"
-          >
-            <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded">
-              <a href="mailto:@takawanepranil22@gmail.com">Contact Me</a>
-            </button>
-            <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded">
-              <a href="../../pdf/Pranil Takawane.pdf">Download Resume</a>
-            </button>
-          </div>
+  id="buttonsforcontactAnddownload"
+  className="md:flex md:p-3 justify-center text-center gap-3 pt-5 sm:flex-col sm:gap-2 sm:pt-2"
+>
+  <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded">
+    <a href="mailto:@takawanepranil22@gmail.com">Contact Me</a>
+  </button>
+  <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded">
+    <a href="../../pdf/Pranil Takawane.pdf">Download Resume</a>
+  </button>
+</div>
+
         </div>
 
         <div
