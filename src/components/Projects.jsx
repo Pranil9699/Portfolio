@@ -41,7 +41,7 @@ const Projects = () => {
     <>
       <div id="projects">
       <hr className="border-t-2 border-gray-300 my-8 mx-auto w-[90%]" />
-      <div className="py-10 px-4 md:px-0 lg:w-[100%] lg:h-[200vh] text-white">
+      <div className="py-10 px-4 md:px-0 lg:w-[100%] lg:h-[250vh] text-white">
         <h1 className="text-4xl text-center mb-8 text-white font-semibold">
           Projects
         </h1>
