@@ -266,6 +266,7 @@ const Navbar = ({ callFunc, t }) => {
   </button>
 </div>
 
+
         </div>
 
         <div
