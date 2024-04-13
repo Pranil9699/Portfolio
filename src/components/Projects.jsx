@@ -145,11 +145,11 @@ const Projects = () => {
             <p className="text-sm mb-4">
               liveLink:{" "}
               <a
-                href={"https://chat-app-p-t.onrender.com/"}
+                href={"https://chat-app-p-t.onrender.app/"}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://chat-app-p-t.onrender.com/
+                https://chat-app-p-t.onrender.app/
               </a>
             </p>
           </div>
