@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-deep: #050714;
+  --bg-soft: #0d1230;
+  --accent: #4de2b1;
+  --accent-2: #6fb5ff;
+  --text-main: #e9f4ff;
+  --text-soft: #9eb6d0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  background: radial-gradient(circle at 10% 10%, #14204f 0%, var(--bg-deep) 45%),
+    linear-gradient(160deg, #02030a 0%, #0d1230 100%);
+  color: var(--text-main);
+  cursor: none;
+}
+
+a {
+  color: inherit;
+}
+
+.app-shell {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.content-wrap {
+  width: min(1120px, 92vw);
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.section-title {
+  font-family: "Syne", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.glass-card {
+  background: rgba(10, 17, 45, 0.55);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(141, 172, 220, 0.25);
+  border-radius: 1rem;
+}
+
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+}
+
+.cursor-ring {
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  transition: width 0.22s ease, height 0.22s ease, border-color 0.22s ease;
+}
+
+.cursor-ring.active {
+  width: 54px;
+  height: 54px;
+  border-color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  body {
+    cursor: auto;
+  }
+
+  .cursor-dot,
+  .cursor-ring {
+    display: none;
+  }
+}
